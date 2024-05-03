@@ -9,3 +9,4 @@ rules:
   - base: website
     upstream: KelvinTegelaar:website
     mergeMethod: merge
+    skip_deploy_on_missing_secrets: true
